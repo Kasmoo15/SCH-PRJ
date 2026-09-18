@@ -13,6 +13,8 @@ int main() {
    int operation;
    cin >> operation;
 
+   // useless comments
+
    cout << "Enter the first number" << endl;
    int first_num;
    cin >> first_num;
