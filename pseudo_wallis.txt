@@ -1,0 +1,14 @@
+Display "Enter a numerator"
+Store user input -> numerator
+Display "Enter a denominator"
+Store user input -> denominator
+
+for n = 1 while n < or = to denominator
+    increase n + 1
+    declare numerator formula -> 2*n
+    declare denominator min formula -> 2*n-1
+    declare denominator max formula -> 2*n+1
+
+    calculate the using the formula (numerator/ denominator_min) * (numerator / denominator_max)
+    store the result -> result
+    multiply with last result (with one if first cycle )
